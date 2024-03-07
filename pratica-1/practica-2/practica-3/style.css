@@ -1,0 +1,81 @@
+#selectorhijo {
+    color: aqua;
+}
+
+section#selectorhijo p {
+    color: red;
+}
+
+#selectorhijodirecto article > p {
+    color: blue;
+}
+
+#selectorhermanogeneral article span ~ button {
+    color: brown;
+}
+
+#selectorhermanoadyacente article h3 + h4 {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+a[href="http://www.google.com"] {
+    font-size: 50px;
+    color: green;
+}
+
+input[type="password"]{
+    padding: 20px;
+}
+
+.buttonhover {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+/* es para invertir los color una se pone el cursos enciam  */
+.buttonhover:hover {
+    background-color: white;
+    color: green;
+    border: 10px;
+    cursor: pointer;
+
+}
+/* es para marcar que ya se visito la pagina  */
+#visitedlinks a:visited{
+    color: red;
+}
+/* es para marcar que esta activado al darle click  */
+#visitedlinks a:active {
+    color: green;
+}
+
+/* es para cambiar el color de solo uno de esos elementos */
+#firstchild .caja {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+
+}
+/* es para seleccionar el primero  */
+#firstchild div.caja:first-child {
+    background-color: green;
+    
+
+}
+/* es para seleccionar el ultimo */
+#firstchild div.caja:last-child {
+background-color: blue;
+
+}
+/* es para contar de arriba abajo y sleccionar uno  */
+#firstchild div.caja:nth-child(3){
+    background-color: blueviolet;
+}
+/* es para contar de abajo hacia arriba y seleccionar uno  */
+#firstchild div.caja:nth-last-child(3){
+    background-color: gray;
+}
