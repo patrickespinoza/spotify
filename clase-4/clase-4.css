@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+.cajaAbsolute2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.padreRelativo {
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+/* transition nos sirve para hacer animada al poner le cursor  */
+/* si se agrega otro tiempo es para retrasar el cambio  */
+.buttonHover {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all linear 300ms;
+}
+
+.buttonHover:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid red;
+    text-decoration: underline;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+
+    
+}
+
+.animaciones .caja {
+    animation: cambiar-color 2s infinite alternate;
+}
+@keyframes cambiar-color {
+        0% {
+            background-color: brown;
+        
+        }
+
+        50% {
+            background-color: blue;
+        }
+
+        100% {
+            background-color: green;
+        }
+
+        
+}
+
+.mover {
+    width: 100px;
+    height: 100px;
+    
+}
+.move .mover {
+    animation: mover-caja 6s infinite alternate;
+}
+@keyframes mover-caja {
+    0% {
+        background-color: brown;
+        transform: translateX(0);
+    
+    }
+
+    50% {
+        background-color: blue;
+        transform: translateX(50px);
+    }
+
+    100% {
+        background-color: green;
+        transform: translateX(200px);
+    } 
+} 
