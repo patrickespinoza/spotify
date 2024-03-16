@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: grey;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.texto {
+  background-color: grey;
+  width: 50%;
+  margin: 20px auto;
+}
+.texto h1 {
+  color: white;
+  margin: 10px 10px;
+}
+.texto p {
+  color: antiquewhite;
+}
+
+.enlaces {
+  background-color: #d1d1d1;
+  padding: 8px;
+  border-radius: 8px;
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.enlaces li {
+  list-style: none;
+  padding: 4px;
+}
+.enlaces a {
+  color: #272727;
+}
+.enlaces ul {
+  border: 1px dashed #272727;
+}
+
+.docsContainer {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.docsContainer article {
+  background-color: #d3d3d3;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #d1d1d1;
+}
+.docsContainer section {
+  margin-top: 8px;
+}
+
+.bloqueDocumentacion article {
+  margin: 8px;
+}
+.bloqueDocumentacion h3 {
+  margin: 8px;
+}
+.bloqueDocumentacion p {
+  margin: 8px;
+}
+.bloqueDocumentacion div {
+  background-color: #000;
+  height: 25px;
+  color: #72ff72;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 8px;
+}/*# sourceMappingURL=main.css.map */

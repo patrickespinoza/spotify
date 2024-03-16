@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-wrap: column;
+  align-items: center;
+  border: solid red;
+  height: 70%;
+  width: 70%;
+}
+
+article {
+  height: 60%;
+  width: 60%;
+}
+
+.perfil h1 {
+  color: green;
+}
+.perfil p {
+  color: black;
+  flex-wrap: wrap;
+}
+.perfil img {
+  margin: 20px auto;
+  height: 120%;
+  width: 120%;
+}
+
+imagen2 {
+  height: 70%;
+  width: 70%;
+}/*# sourceMappingURL=tarea-3.css.map */
