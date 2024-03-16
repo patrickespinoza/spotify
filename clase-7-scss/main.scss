@@ -1,0 +1,32 @@
+// declarar variables
+$colordefondoseccion:green;
+
+// variables mixins
+@mixin flexcolumncenter ($flexdirection) {
+    display: flex;
+    flex-direction: $flexdirection;
+    justify-content: center;
+    align-items: center;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    // background-color: black;
+    @include flexcolumncenter(column-reverse);
+
+
+}
+
+main {
+    @include flexcolumncenter(column-reverse);
+}
+
+// para mandar a llamar un modulo 
+@import "perfil"
