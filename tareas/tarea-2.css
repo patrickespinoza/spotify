@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: grey;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.texto {
+    background-color: grey;
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.texto h1 {
+    color: white;
+    margin: 10px 10px;
+}
+
+.texto p {
+    color: antiquewhite;
+}
