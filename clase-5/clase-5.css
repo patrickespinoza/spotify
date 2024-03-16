@@ -1,0 +1,59 @@
+/* el boder box es para que el css se haga cargo del tamaño  */
+/* de manera automatica sin que se salga el cuadro */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#porcentajes .estatico{
+    width: 400px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+main {
+    width: 600px;
+    border: 1px dotted green;
+}
+
+#porcentajes {
+    width: 400px;
+    border: 1px solid black;
+}
+
+#porcentajes .responsivo1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+#porcentajes .responsivopapa{
+    width: 100%;
+    max-width: 600px;
+    background-color: blue;
+    height: 200px;
+}
+
+#porcentajes .responsivohijo {
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+ /* es para sobre escribir el codigo dependiendo del tamaño de la pantalla */
+@media screen and (max-width:600px) {
+body {
+    background-color: black;
+    display: none;
+}
+}
+
+@media screen and (min-width:758px){
+    #porcentajes .resposivo1 {
+        width: 100%;
+        display: block;
+
+    }
+}
